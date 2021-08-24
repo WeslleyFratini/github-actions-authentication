@@ -1,5 +1,5 @@
 service:
-  name: auth-api-acitons
+  name: auth-api
 
 custom:
   stage: ${opt:stage}
