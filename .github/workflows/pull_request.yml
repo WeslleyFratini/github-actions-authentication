@@ -8,12 +8,13 @@ jobs:
   tests:
     runs-on: ubuntu-latest
     steps:
+      - name: Configs Node and version
       - uses: actions/setup-node@v2
       - uses: actions/checkout@v2
       - name: Install dependencies
         run: yarn install
       - run: yarn test
-      - name: Harman's Code Coverage Report
+      - name: Code Coverage Report on PR
         uses: hrgui/lcov-reporter-action@v0.1.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
