@@ -23,8 +23,8 @@ jobs:
       JWT_SECRET: DefaultJwtSecret
       AUTH_TOKEN: AuthenticationUser
       MONGODB_CONN_STRING: mongodb://localhost/auth
-      AWS_ACCESS_KEY_ID: AKIAXPD72NWFLN34S3MA
-      AWS_SECRET_ACCESS_KEY: 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
+      AWS_ACCESS_KEY_ID: AKIAXPD72NWFGTR4YSUG
+      AWS_SECRET_ACCESS_KEY: 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
     steps:
       - uses: actions/setup-node@v2
       - uses: actions/checkout@v2
