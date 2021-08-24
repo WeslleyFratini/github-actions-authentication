@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/setup-node@v2
       - uses: actions/checkout@v1
-      - name: Cache install node_modules 
+      - name: Cache install nodeModules 
       - uses: egordm/gha-yarn-node-cache@v1
       - name: Install dependencies
         run: yarn install
