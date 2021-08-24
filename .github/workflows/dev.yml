@@ -10,7 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-node@v2
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2     
+      - uses: egordm/gha-yarn-node-cache@v1
       - name: Install dependencies
         run: yarn install
       - run: yarn test
