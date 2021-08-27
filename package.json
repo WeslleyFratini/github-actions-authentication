@@ -9,6 +9,7 @@
     "aws-serverless-koa": "^1.0.0",
     "axios": "^0.19.2",
     "bcrypt-nodejs": "^0.0.3",
+    "danger": "^10.6.6",
     "dotenv": "^7.0.0",
     "jsonwebtoken": "^8.5.1",
     "koa": "^2.7.0",
